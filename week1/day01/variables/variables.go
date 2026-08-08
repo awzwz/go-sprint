@@ -8,9 +8,6 @@ func main() {
 	age := 20
 	var height float64 = 1.80
 	isStudent := true
-	fmt.Println(name)
-	fmt.Println(age)
-	fmt.Println(height)
-	fmt.Println(isStudent)
+	fmt.Printf("Меня зовут %s, мне %d лет, мой рост %.2f метра, я студент: %t\n", name, age, height, isStudent)
 
 }
